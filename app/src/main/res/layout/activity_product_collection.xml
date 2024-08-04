@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbgdawable"
+    tools:context=".ProductCollection">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="30sp"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/productName"
+            android:background="@color/white"
+            android:hint="Product name"
+
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+        <EditText
+            android:id="@+id/productPrice"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product price"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+        <EditText
+            android:id="@+id/productDescription"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product description"
+            android:layout_height="96dp"
+            android:padding="10sp"
+            android:layout_width="match_parent" />
+        <EditText
+            android:id="@+id/productHeight"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product height"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+        <EditText
+            android:id="@+id/productWidth"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product width"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+        <EditText
+            android:id="@+id/productDepth"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product depth"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+        <EditText
+            android:id="@+id/productImage"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product image"
+            android:layout_height="70dp"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            />
+
+        <Button
+            android:id="@+id/add_product_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="4sp"
+            android:backgroundTint="@color/teal_200"
+            android:text="save product" />
+
+        <Button
+            android:layout_marginTop="9sp"
+            android:id="@+id/get_all_products_btn"
+            android:text="get products"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

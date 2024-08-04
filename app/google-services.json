@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44724067152",
+    "project_id": "projectar-5b517",
+    "storage_bucket": "projectar-5b517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44724067152:android:c17c6786d05eafdb486a55",
+        "android_client_info": {
+          "package_name": "com.example.android_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb_L-OMgo7TmeMQwqip5mXKlsGogiYyIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
